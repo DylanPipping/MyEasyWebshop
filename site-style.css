@@ -52,6 +52,12 @@ nav {
     margin-left: 15px;
 }
 
+.fadeIn {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
 .grid-container {
     position: relative;
     margin-top: 20px;
@@ -105,6 +111,17 @@ p {
     position: relative;
     height: 450px;
     background-color: #999999;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        transform: translate3d(0, 40px, 0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
 }
 
 @media screen and (max-width: 1124px) {
@@ -169,5 +186,10 @@ p {
     }
     li.fade {
         opacity: 1;
+    }
+    .fadeIn {
+        animation: fadeInAnimation ease 2s;
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
     }
 }
