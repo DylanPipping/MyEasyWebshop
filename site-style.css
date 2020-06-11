@@ -141,6 +141,24 @@ p {
     box-shadow: inset 0px 0 0 0 #4e4d4d;
 }
 
+.container h1 {
+    text-align: center;
+    padding: 50px;
+    font-size: 45px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 footer {
     position: relative;
     bottom: 0;
@@ -276,5 +294,8 @@ hr {
         float: right;
         display: block;
         width: 48.9vw;
+    }
+    .column {
+        width: 100%;
     }
 }
