@@ -179,6 +179,28 @@ p {
     clear: both;
 }
 
+form {
+    position: relative;
+    top: 100px;
+    margin-bottom: 170px;
+    margin-left: 50px;
+    display: flexbox;
+}
+
+form p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.spacing {
+    margin: 5px;
+}
+
+.seperation {
+    margin-right: 5px;
+}
+
 
 /* Footer*/
 
