@@ -33,12 +33,39 @@
     </nav>
 
     <div class="page-wrapper">
+<<<<<<< HEAD
         <form class="contact-form" action="mail.php" method="POST">
             <input type="text" name="name" placeholder="Full name">
             <input type="text" name="mail" placeholder="Your e-mail">
             <input type="text" name="subject" placeholder="Subject">
             <textarea name="message" placeholder="Message"></textarea>
             <button type="submit" name="submit">Send</button>
+=======
+        <form action="mail.php" method="POST">
+            <input class="spacing" type="text" name="name" placeholder="Name..."><br/>
+            <input class="spacing" type="text" name="email" placeholder="Email..."><br/>
+            <input class="spacing" type="text" name="phone" placeholder="Phone Number..."><br/>
+
+
+            <select class="spacing" name="priority" size="1" placeholder="Priority">
+                <option value="Low">Low</option>
+                <option value="Normal">Normal</option>
+                <option value="High">High</option>
+                <option value="Emergency">Emergency</option>
+            </select>
+            <br/>
+
+            <select class="spacing" name="type" size="1" placeholder="Type...">
+                <option value="update">Website Update</option>
+                <option value="change">Information Change</option>
+                <option value="addition">Information Addition</option>
+                <option value="new">New Products</option>
+            </select>
+            <br/>
+
+            <textarea class="spacing" name="message" rows="6" cols="25" placeholder="Message..."></textarea><br/>
+            <input class="seperation" type="submit" value="Send"><input type="reset" value="Clear">
+>>>>>>> 50d5b3337b14ede600d315f8b6ad1a1a76b2692a
         </form>
 
         <!---Footer--->
