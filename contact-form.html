@@ -33,8 +33,13 @@
     </nav>
 
     <div class="page-wrapper">
-
-
+        <form class="contact-form" action="mail.php" method="POST">
+            <input type="text" name="name" placeholder="Full name">
+            <input type="text" name="mail" placeholder="Your e-mail">
+            <input type="text" name="subject" placeholder="Subject">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button type="submit" name="submit">Send</button>
+        </form>
 
         <!---Footer--->
         <div class="footer">
