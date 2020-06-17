@@ -1,12 +1,22 @@
 <?php
-$name = $_POST['name'];
-$email = $_POST['email'];
-$phone = $_POST['phone'];
-$priority = $_POST['priority'];
-$type = $_POST['type'];
-$message = $_POST['message'];
-$formcontent=" From: $name \n Phone: $phone \n Priority: $priority \n Type: $type \n Message: $message";
-$recipient = "myeasywebshop@gmail.com";
-$subject = "Contact Form";
-$mailheader = "From: $email \r\n";
+
+    if(isset($_POST['submit'])){
+        $name = $_POST['name'];
+        $subject = $_POST['subject'];
+        $mailFrom = $_POST['mail'];
+        $message = $_POST['message'];
+
+        $mailTo = "myeasywebshop@gmail.com";
+        $headers = "From: ".$mailFrom;
+        $txt = "You have received an e-mail from MyEasyWebshop user ".$name.". \n\n".$message;
+
+        if(mail($mailTo, $subject, $txt, $headers)){
+            echo "MailSend";
+        }
+        else{
+            echo "Failed";
+        }
+
+    }
+
 ?>
