@@ -180,11 +180,29 @@ p {
     clear: both;
 }
 
-form {
+input[type=text],
+textarea {
     position: relative;
-    top: 100px;
-    margin-bottom: 170px;
-    margin-left: 200px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.contact-container {
+    margin-top: 120px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.contact-container h2 {
+    color: black;
+    margin-bottom: 10px;
 }
 
 

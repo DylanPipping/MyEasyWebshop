@@ -9,7 +9,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="">
     <title>MyEasyWebshop</title>
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="site-style.css">
+    <link rel="stylesheet" href="./site-style.css">
 </head>
 
 <body>
@@ -33,13 +33,16 @@
     </nav>
 
     <div class="page-wrapper">
-        <form class="contact-form" action="mail.php" method="post">
-            <input type="text" name="name" placeholder="Full name">
-            <input type="text" name="mail" placeholder="Your e-mail">
-            <input type="text" name="subject" placeholder="Subject">
-            <textarea name="message" placeholder="Message"></textarea>
-            <button type="submit" name="submit">Send</button>
-        </form>
+        <div class="contact-container">
+            <h2>Contact form</h2>
+            <form class="contact-form" action="mail.php" method="post">
+                <input type="text" name="name" placeholder="Full name">
+                <input type="text" name="mail" placeholder="Your e-mail">
+                <input type="text" name="subject" placeholder="Subject">
+                <textarea name="message" placeholder="Message"></textarea>
+                <button type="submit" name="submit">Send</button>
+            </form>
+        </div>
 
         <!---Footer--->
         <div class="footer">
