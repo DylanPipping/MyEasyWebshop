@@ -184,18 +184,13 @@ form {
     position: relative;
     top: 100px;
     margin-bottom: 170px;
-    margin-left: 50px;
-    display: flexbox;
+    margin-left: 200px;
 }
 
 form p {
     margin: 0;
     padding: 0;
     text-align: left;
-}
-
-.contact-form {
-    align-items: center;
 }
 
 
