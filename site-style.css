@@ -194,7 +194,9 @@ form p {
     text-align: left;
 }
 
-.contact-form {}
+.contact-form {
+    align-items: center;
+}
 
 
 /* Footer*/
