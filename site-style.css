@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/67137b5f6928edc941186baaab5a664b?family=Lemon/Milk);
+@import url(https://db.onlinewebfonts.com/c/67137b5f6928edc941186baaab5a664b?family=Lemon/Milk);
 * {
     margin: 0;
     padding: 0;
@@ -138,7 +138,7 @@ p {
     display: inline-block;
     vertical-align: middle;
     left: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lemon milk;
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
