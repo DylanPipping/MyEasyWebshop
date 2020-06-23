@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Easy, Webshop, One-button">
+    <meta name="authors" content="Dylan Pipping, Frederik Saelmans">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <title>MyEasyWebshop</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="site-style.css">
+</head>
+
+<body>
+    <nav class="fixed-nav-bar" id="home">
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="logo">
+            <a href="site-index.html#top"><img class="logo" src="./images/Huistijl.jpg" alt="Logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Subsription</a></li>
+            <li><a href="#">Templates</a></li>
+            <li><a href="./contact-form.html">Contact</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+
+    <div style="text-align:center">
+        <h2>Templates</h2>
+        <p>View templates below:</p>
+    </div>
+
+    <div class="image-row">
+        <div class="image-column">
+            <img src="" alt="web-temp_1" style="width: 100%;" onclick="myFuction(this);">
+        </div>
+        <div class="image-column">
+            <img src="" alt="web-temp_1" style="width: 100%;" onclick="myFuction(this);">
+        </div>
+        <div class="image-column">
+            <img src="" alt="web-temp_1" style="width: 100%;" onclick="myFuction(this);">
+        </div>
+        <div class="image-column">
+            <img src="" alt="web-temp_1" style="width: 100%;" onclick="myFuction(this);">
+        </div>
+    </div>
+
+    <div class="image-container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width: 100%;">
+        <div id="imgText"></div>
+    </div>
+
+    <div class="footer">
+        <hr>
+        <div class="footer-content">
+            <div class="footer-section product">
+                <h2 class="product-text">Service</h2>
+                <br>
+                <ul>
+                    <a href="#">
+                        <li>Templates</li>
+                    </a>
+                    <a href="#">
+                        <li>Prices</li>
+                    </a>
+                    <a href="#">
+                        <li>Information</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="footer-section company">
+                <h2 class="product-text">About</h2>
+                <br>
+                <ul>
+                    <a href="#">
+                        <li>Templates</li>
+                    </a>
+                </ul>
+                <div class="footer-contact">
+                    <span><i class="fa fa-phone"></i> &nbsp; 123-456-789</span>
+                    <span><i class="fa fa-envelope"></i> &nbsp; myeasywebshop@gmail.com</span>
+
+                </div>
+                <div class="socials">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section community">
+                <h2 class="product-text">Community</h2>
+                <br>
+                <ul>
+                    <a href="#">
+                        <li>Blog</li>
+                    </a>
+                    <a href="#">
+                        <li>Tutorials</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="footer-section about">
+                <h1 class="logo-text">MyEasyWebshop</h1>
+                <p>MyEasyWebshop is a website created to bring starting companies to create websites for there business fast and easy. This is for now just a school project made to show what we made during the last few weeks.
+                </p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            &copy; MyEasyWebshop.com | Designed by Dylan, Frederik, Robin, Pepijn
+        </div>
+
+    </div>
+
+</body>
+
+</html>
