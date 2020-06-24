@@ -284,6 +284,7 @@ button[type=submit] {
 .image-container {
     position: relative;
     display: none;
+    bottom: 20px;
 }
 
 #imgText {
