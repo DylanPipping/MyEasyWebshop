@@ -283,15 +283,14 @@ button[type=submit] {
 
 .image-container {
     position: relative;
-    display: none;
-    bottom: 20px;
+    display: inline-block;
 }
 
 #imgText {
     position: absolute;
     bottom: 15px;
     left: 15px;
-    color: white;
+    color: black;
     font-size: 20px;
 }
 
