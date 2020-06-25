@@ -698,13 +698,13 @@ hr {
     position: relative;
     left: 200px;
   } */
-  .circular--portrait {
+
+.circular--portrait {
     position: relative;
     width: 200px;
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
-<<<<<<< HEAD
     background-image: url(./images/frederik.JPG);
     background-size: 200px;
     margin: 0 25px 5px 0;
@@ -730,45 +730,42 @@ hr {
     -webkit-filter: grayscale(90%);
     filter: grayscale(90%);
     /* make all photos black and white */
-=======
-    left: 80px;
-    top: 40px;
-  }
-  
-  .circular--portrait img {
->>>>>>> 78e347c5bd3b3bca2f020a12c1031cca69a6ac38
     width: 100%;
     height: auto;
-  }
-  .text-about
-  { position: relative;
-    
-    }
-    .column {
-        float: left;
-        width: 50%;
-        padding: 10px;
-        height: 300px; /* Should be removed. Only for demonstration */
-      }
-      
-      /* Clear floats after the columns */
-      .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-      .text-about h2
-      {
-        font-size: 20px;
-        position: relative;
-        top: -165px;
-      }
-      .text-about p
-      {
-        font-size: 12px;
-        position: relative;  
-        top: -150px;
-        max-width: 50%;
-        float: right;
-        margin-right: 120px;
-      }
+}
+
+.text-about {
+    position: relative;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text-about h2 {
+    font-size: 20px;
+    position: relative;
+    top: -165px;
+}
+
+.text-about p {
+    font-size: 12px;
+    position: relative;
+    top: -150px;
+    max-width: 50%;
+    float: right;
+    margin-right: 120px;
+}
