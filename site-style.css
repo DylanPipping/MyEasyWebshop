@@ -695,41 +695,49 @@ hr {
     position: relative;
     left: 200px;
   } */
-  .circle {    
-      height: 200px;    
-      width: 200px;    
-      border-radius: 50%;    
-      background-image: url(/images/frederik.JPG);  
-      background-size: 200px; 
-       margin: 0 25px 5px 0;    
-       float: left;    
-       -webkit-shape-outside: circle();    
-       shape-outside: circle();
-       font-family: Lemon milk;
-    }
-    .person {
-        border: 10px solid transparent;
-        margin-bottom: 25px;
-        width: 80%;
-        height: 80%;
-        opacity: 0.7;
-      }
-      .person:hover {
-        border-color: #f1f1f1;
-      }
-      .carousel-inner img {
-        -webkit-filter: grayscale(90%);
-        filter: grayscale(90%); /* make all photos black and white */ 
-        width: 100%; /* Set width to 100% */
-        margin: auto;
-      }
-      .carousel-caption h3 {
-        color: #fff !important;
-      }
-      @media (max-width: 600px) {
-        .carousel-caption {
-          display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-        }
-      }
+  .circular--portrait {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    left: 80px;
+    top: 40px;
+  }
+  
+  .circular--portrait img {
+    width: 100%;
+    height: auto;
+  }
+  .text-about
+  { position: relative;
     
-
+    }
+    .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .text-about h2
+      {
+        font-size: 20px;
+        position: relative;
+        top: -165px;
+      }
+      .text-about p
+      {
+        font-size: 12px;
+        position: relative;  
+        top: -150px;
+        max-width: 50%;
+        float: right;
+        margin-right: 120px;
+      }
