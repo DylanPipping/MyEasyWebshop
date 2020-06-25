@@ -599,7 +599,7 @@ hr {
 
 .card-image {
     grid-area: image;
-    background: url("/images/test2.png");
+    background: url("./images/test2.png");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
