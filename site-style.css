@@ -488,8 +488,7 @@ hr {
 
 /* Frederik Style code ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
-.size
-{
+.size {
     width: 60%;
     margin: auto;
     display: flex;
@@ -510,6 +509,8 @@ hr {
         margin: auto;
         border: black;
     } */
+
+
 /* .squareleft
     {
         width: 350px;
@@ -536,7 +537,9 @@ hr {
         right: 500px;
         
     } */
-    /* .Row {
+
+
+/* .Row {
         display: table;
         width: 100%; 
         height: 350px;
@@ -596,7 +599,7 @@ hr {
 
 .card-image {
     grid-area: image;
-    background: url("/images/test2.png");
+    background: url("./images/test2.png");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -640,37 +643,37 @@ hr {
     justify-content: center;
     flex-direction: column;
     color: black;
-    padding:10px;
-  }
-  .card:hover {
+    padding: 10px;
+}
+
+.card:hover {
     transform: scale(1.15);
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-  }
-  .card {
-  
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card {
     transition: 0.5s ease;
     cursor: pointer;
-    margin:30px;
-  }
-  .pricing
-  {
-      width: 100vw;
-      height:100%;
-      background-image: url("/images/test3.png");
-      
-      
-  
-  }
-  .value a
-  {
-      text-decoration: none;
-      color: black;
-  }
-  .value a:hover
-  {
-      color: rgb(92, 92, 92);
-  }
-  /* .circular-portrait
+    margin: 30px;
+}
+
+.pricing {
+    width: 100vw;
+    height: 100%;
+    background-image: url("./images/test3.png");
+}
+
+.value a {
+    text-decoration: none;
+    color: black;
+}
+
+.value a:hover {
+    color: rgb(92, 92, 92);
+}
+
+
+/* .circular-portrait
   {
     position: relative;
     width: 150px;
