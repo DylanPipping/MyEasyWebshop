@@ -703,7 +703,7 @@ hr {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    background-image: url(/images/frederik.JPG);
+    background-image: url(./images/frederik.JPG);
     background-size: 200px;
     margin: 0 25px 5px 0;
     float: left;
