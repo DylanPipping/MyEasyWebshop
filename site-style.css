@@ -330,7 +330,6 @@ hr {
 
 /* Frederik Style code ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
-<<<<<<< HEAD
 .size
 {
     width: 60%;
@@ -342,6 +341,7 @@ hr {
 .info
 {
     text-align: center;
+    font-family: Lemon milk;
 }
 
 /* .center
@@ -352,17 +352,6 @@ hr {
         margin: auto;
         border: black;
     } */
-=======
-.center {
-    width: 100%;
-    height: 1080px;
-    background-color: lightblue;
-    margin: auto;
-    border: black;
-}
-
-
->>>>>>> c7b585e25b9f1820223ec8369fd9fe12dbff8b21
 /* .squareleft
     {
         width: 350px;
@@ -389,7 +378,6 @@ hr {
         right: 500px;
         
     } */
-<<<<<<< HEAD
     /* .Row {
         display: table;
         width: 100%; 
@@ -447,7 +435,7 @@ hr {
   }
   .card-image {
     grid-area: image;
-    background: url("/images/test.jpg");
+    background: url("/images/test2.png");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -500,29 +488,61 @@ hr {
     cursor: pointer;
     margin:30px;
   }
-=======
-
-.Row {
-    display: table;
+  .pricing
+  {
+      width: 100vw;
+      height:100%;
+      background-image: url("/images/test3.png");
+      
+      
+  
+  }
+  .value a
+  {
+      text-decoration: none;
+      color: black;
+  }
+  .value a:hover
+  {
+      color: rgb(92, 92, 92);
+  }
+  /* .circular-portrait
+  {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+  }
+  .circular-portrait img
+  {
     width: 100%;
-    height: 350px;
-    table-layout: fixed;
-    border-spacing: 10px;
-}
+    height: auto;  
+  }
+  .position-img
+  {
+    position: relative;
+    left: 150px;
+  }
+  .text-postion
+  {
+    position: relative;
+    left: 200px;
+  } */
+  .circle {    
+      height: 200px;    
+      width: 200px;    
+      border-radius: 50%;    
+      background-image: url(/images/frederik.JPG);  
+      background-size: 200px; 
+       margin: 0 25px 5px 0;    
+       float: left;    
+       -webkit-shape-outside: circle();    
+       shape-outside: circle();
+       font-family: Lemon milk;
+    }
+    
+    
 
-.Column {
-    display: table-cell;
-    background-color: red;
-    text-align: center;
-    border: 1px solid;
-    padding: 10px;
-    /* box-shadow: 5px 10px 8px #888888; */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.button {
-    display: block;
-    max-width: 300px;
-    margin: auto;
-}
->>>>>>> c7b585e25b9f1820223ec8369fd9fe12dbff8b21
