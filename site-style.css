@@ -488,8 +488,7 @@ hr {
 
 /* Frederik Style code ------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
-.size
-{
+.size {
     width: 60%;
     margin: auto;
     display: flex;
@@ -510,6 +509,8 @@ hr {
         margin: auto;
         border: black;
     } */
+
+
 /* .squareleft
     {
         width: 350px;
@@ -536,7 +537,9 @@ hr {
         right: 500px;
         
     } */
-    /* .Row {
+
+
+/* .Row {
         display: table;
         width: 100%; 
         height: 350px;
@@ -640,37 +643,37 @@ hr {
     justify-content: center;
     flex-direction: column;
     color: black;
-    padding:10px;
-  }
-  .card:hover {
+    padding: 10px;
+}
+
+.card:hover {
     transform: scale(1.15);
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-  }
-  .card {
-  
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.card {
     transition: 0.5s ease;
     cursor: pointer;
-    margin:30px;
-  }
-  .pricing
-  {
-      width: 100vw;
-      height:100%;
-      background-image: url("/images/test3.png");
-      
-      
-  
-  }
-  .value a
-  {
-      text-decoration: none;
-      color: black;
-  }
-  .value a:hover
-  {
-      color: rgb(92, 92, 92);
-  }
-  /* .circular-portrait
+    margin: 30px;
+}
+
+.pricing {
+    width: 100vw;
+    height: 100%;
+    background-image: url("/images/test3.png");
+}
+
+.value a {
+    text-decoration: none;
+    color: black;
+}
+
+.value a:hover {
+    color: rgb(92, 92, 92);
+}
+
+
+/* .circular-portrait
   {
     position: relative;
     width: 150px;
@@ -695,41 +698,48 @@ hr {
     position: relative;
     left: 200px;
   } */
-  .circle {    
-      height: 200px;    
-      width: 200px;    
-      border-radius: 50%;    
-      background-image: url(/images/frederik.JPG);  
-      background-size: 200px; 
-       margin: 0 25px 5px 0;    
-       float: left;    
-       -webkit-shape-outside: circle();    
-       shape-outside: circle();
-       font-family: Lemon milk;
-    }
-    .person {
-        border: 10px solid transparent;
-        margin-bottom: 25px;
-        width: 80%;
-        height: 80%;
-        opacity: 0.7;
-      }
-      .person:hover {
-        border-color: #f1f1f1;
-      }
-      .carousel-inner img {
-        -webkit-filter: grayscale(90%);
-        filter: grayscale(90%); /* make all photos black and white */ 
-        width: 100%; /* Set width to 100% */
-        margin: auto;
-      }
-      .carousel-caption h3 {
-        color: #fff !important;
-      }
-      @media (max-width: 600px) {
-        .carousel-caption {
-          display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-        }
-      }
-    
 
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(/images/frederik.JPG);
+    background-size: 200px;
+    margin: 0 25px 5px 0;
+    float: left;
+    -webkit-shape-outside: circle();
+    shape-outside: circle();
+    font-family: Lemon milk;
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+    /* make all photos black and white */
+    width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    color: #fff !important;
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+        /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
